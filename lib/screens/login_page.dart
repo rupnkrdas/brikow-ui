@@ -113,6 +113,7 @@ class LoginPage extends StatelessWidget {
                   ),
                   Expanded(
                     child: TextField(
+                      keyboardType: TextInputType.phone,
                       decoration: InputDecoration(
                         floatingLabelBehavior: FloatingLabelBehavior.never,
                         border: InputBorder.none,
